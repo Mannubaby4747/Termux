@@ -1,17 +1,11 @@
 #!/usr/bin/python3
 #By @maniish_daiya
 
-import telebot
 import subprocess
 import requests
 import datetime
 import os
 
-# insert your Telegram bot token here
-bot = telebot.TeleBot('7110624800:AAFpz_oMPvA18X8kL1VrbuX14Tl1Njd5shs')
-
-# Admin user IDs
-admin_id = ["789225386"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
